@@ -1,17 +1,21 @@
 research_task:
   description: >
-    Conduct thorough research on company {company}. Focus on:
-    1. Current company status and health
-    2. Historical company performance
-    3. Major challenges and opportunities
-    4. Recent news and events
-    5. Future outlook and potential developments
+    You MUST use the search tool AT LEAST 5 times with different queries before
+    writing your final answer. Do NOT write a final answer until you have completed
+    ALL 5 searches below:
 
-    Make sure to organize your findings in a structured format with clear sections.
+    Search 1: "Tesla stock price and financial performance 2025 2026"
+    Search 2: "Tesla revenue earnings Q4 2024 annual results"
+    Search 3: "Tesla news April 2026"
+    
+
+    Only after completing all 5 searches, compile a structured research summary
+    with sections for: Financial Health, Recent News, Challenges, and Outlook.
+    Include specific numbers and dates from your searches.
+
   expected_output: >
-    A comprehensive research document with well-organized sections covering
-    all the requested aspects of {company}. Include specific facts, figures,
-    and examples where relevant.
+    A detailed research summary with 5 clearly labeled sections, each grounded
+    in data from a separate search. Must include specific figures and dates.
   agent: researcher
 
 analysis_task:
